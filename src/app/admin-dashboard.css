@@ -1,0 +1,118 @@
+/* 🌟 Force Full Page Background - Dark Theme */
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #ff9a9e, #fad0c4, #ffdde1) !important; /* Soft Pink Gradient */
+    color: white !important;
+}
+
+/* 🌟 Dashboard Container */
+.dashboard-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    text-align: center;
+    padding: 20px;
+}
+
+/* 🏠 Dashboard Heading */
+.dashboard-container h1 {
+    font-size: 2.5rem;
+    color: #222; /* Darker for better visibility */
+    margin-bottom: 30px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    font-weight: bold;
+}
+
+/* 📢 View Menu Titles (Fixed Visibility) */
+.view-menu-title {
+    font-size: 1.8rem; /* Bigger for readability */
+    color: #333; /* Darker shade */
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+
+/* 🎯 Dashboard Buttons */
+.dashboard-button, .home-button {
+    font-size: 1.2rem;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+    margin: 10px;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.2s;
+    width: 250px;
+    font-weight: bold;
+}
+
+.dashboard-button {
+    background-color: #ff5252;
+    color: white;
+}
+
+.dashboard-button:hover {
+    background-color: #d32f2f;
+    transform: scale(1.05);
+}
+
+.home-button {
+    background-color: #1976d2;
+    color: white;
+}
+
+.home-button:hover {
+    background-color: #1565c0;
+    transform: scale(1.05);
+}
+
+/* 📜 Table Styling */
+.menu-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+    background: #222;
+    color: white;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+/* 📝 Table Headers */
+.menu-table th {
+    background: #444;
+    color: white;
+    padding: 12px;
+    text-align: left;
+    font-weight: bold;
+    font-size: 1.2rem; /* Slightly bigger */
+}
+
+/* 📝 Table Rows */
+.menu-table td {
+    padding: 12px;
+    border-bottom: 1px solid #555;
+}
+
+/* 📝 Alternate Row Color (Fixed) */
+.menu-table tr:nth-child(even) {
+    background: #292929;
+}
+
+.menu-table tr:nth-child(odd) {
+    background: #1f1f1f;
+}
+
+/* 📝 Table Hover Effect */
+.menu-table tr:hover {
+    background: #383838;
+}
+
+/* ✅ Ensure page-container aligns correctly */
+.page-container {
+    text-align: center;
+    margin-top: 50px;
+}

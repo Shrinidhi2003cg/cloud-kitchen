@@ -1,0 +1,90 @@
+/* 🌟 Full Page Background */
+/* 🌟 Full Page Background (Covers Entire Screen) */
+.admin-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;  /* ✅ Full viewport height */
+    width: 100vw;       /* ✅ Full width */
+    background: linear-gradient(to right, #f8f9fa, #e3f2fd); /* ✅ Spread gradient */
+}
+
+
+/* 🏠 Black Box for Login */
+.admin-login-box {
+    background: black;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    width: 350px;
+    border: 2px solid white;
+}
+
+/* 🔑 Admin Login Heading */
+.admin-login-box h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: white;
+}
+
+/* 📝 Password Input Box */
+.admin-login-box input {
+    width: 100%;
+    padding: 12px;
+    margin-top: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    outline: none;
+    background: #222;
+    color: white;
+}
+
+.admin-login-box input:focus {
+    border-color: #ff5252;
+}
+
+/* 🎯 Login Button (Next Line & Styled) */
+.admin-login-box button {
+    background-color: red;
+    color: white;
+    font-size: 1.2rem;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.2s;
+    width: 100%;
+    font-weight: bold;
+    display: block;
+}
+
+.admin-login-box button:hover {
+    background-color: #b71c1c;
+    transform: scale(1.05);
+}
+
+/* 🏠 Home Button - Styled */
+.home-button {
+    display: block;
+    text-align: center;
+    background-color: #1976d2;  /* ✅ Blue color */
+    color: white;
+    font-size: 1.2rem;
+    padding: 12px 20px;
+    border-radius: 8px;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.2s;
+    width: 100%;
+    font-weight: bold;
+    text-decoration: none; /* ✅ Remove default link underline */
+}
+
+.home-button:hover {
+    background-color: #1565c0;
+    transform: scale(1.05);
+}
