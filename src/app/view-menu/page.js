@@ -43,7 +43,7 @@ export default function ViewMenu() {
 
   return (
     <div className="page-container">
-      <h2 className="view-menu-title">📅 Today's Available Menus</h2>
+      <h2 className="view-menu-title">📅 Today&apos;s Available Menus</h2>
 
       {menus.length === 0 ? (
         <p>No menus available.</p>
