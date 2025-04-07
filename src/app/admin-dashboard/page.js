@@ -1,4 +1,4 @@
-    "use client";
+"use client";
 import Link from "next/link";
 import "../admin-dashboard.css";
 
@@ -15,6 +15,11 @@ export default function AdminDashboard() {
       {/* Add New Menu Button */}
       <Link href="/add-menu">
         <button className="dashboard-button">➕ Add New Menu</button>
+      </Link>
+
+      {/* High-End Veg Menu Button */}
+      <Link href="/highveg">
+        <button className="dashboard-button">🌿 High-End Veg Menu</button>
       </Link>
 
       {/* Home Button */}
